@@ -45,7 +45,7 @@ The dataset used in this project is a public dataset of pistol images available 
 To prepare the data for use with the Pistol Object Detection system based on YOLOv8, the following pre-processing steps were applied to each image:
 
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 416x416 pixels
+* Resize to 640x640 pixels
 
 In addition, the following augmentation techniques were applied to create 3 versions of each train image:
 
